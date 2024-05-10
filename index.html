@@ -13,6 +13,8 @@
             padding: 0;
             font-family: 'Poetsen One', Arial, sans-serif; /* Adding the Poetsen One font */
             background-color: #fff; 
+            opacity: 0; /* Initially set opacity to 0 to hide text */
+            transition: opacity 1s ease-in; /* Add a transition effect */
         }
         header {
             background-color: #fff; 
@@ -50,6 +52,14 @@
                 Join us as we work together to break down barriers, shatter stereotypes, and build a brighter future for women in STEM. Together, we can achieve anything!</p>
         </section>
     </div>
+
+    <script>
+        // Fade in animation for all text on page load
+        document.addEventListener("DOMContentLoaded", function() {
+            document.body.style.opacity = 1;
+        });
+    </script>
 </body>
 </html>
+
 

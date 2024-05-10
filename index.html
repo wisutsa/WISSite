@@ -13,8 +13,7 @@
             padding: 0;
             font-family: 'Poetsen One', Arial, sans-serif; /* Adding the Poetsen One font */
             background-color: #fff; 
-            opacity: 0; /* Initially hide all text */
-            animation: fadeIn 1s forwards; /* Apply fade-in animation */
+            opacity: 0; /* Initially set opacity to 0 */
         }
         header {
             background-color: #fff; 
@@ -32,13 +31,17 @@
             color: #fff;
             padding: 20px;
             border-radius: 10px;
+            animation: dropIn 1s ease forwards; /* Apply drop-in animation */
         }
-        @keyframes fadeIn {
+
+        @keyframes dropIn {
             from {
-                opacity: 0; /* Start with opacity 0 */
+                opacity: 0;
+                transform: translateY(-50px);
             }
             to {
-                opacity: 1; /* Fade in to opacity 1 */
+                opacity: 1;
+                transform: translateY(0);
             }
         }
     </style>
@@ -50,7 +53,7 @@
             <font color="#E97451">T</font>
             <font color="#0F52BA">S</font>
             <font color="#E97451">A</font>
-            </h1>
+        </h1>
     </header>
     <div class="container">
         <section class="about-section">
@@ -62,12 +65,10 @@
     </div>
 
     <script>
-        // Apply fade-in animation to all elements with the "container" class
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.container *').forEach(function(el) {
-                el.style.animation = "fadeIn 1s forwards";
-            });
-        });
+        // Use JavaScript to animate the opacity of the body once the content is loaded
+        window.onload = function() {
+            document.body.style.opacity = '1';
+        };
     </script>
 </body>
 </html>

@@ -30,25 +30,35 @@
         }
         .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             max-width: 1000px;
             margin: 50px auto;
             padding: 0 20px;
         }
-        .about-section {
-            flex: 1;
+        .button {
+            display: inline-block;
+            padding: 80px 80px; /* Increased padding for bigger buttons */
+            font-size: 24px; /* Increased font size */
             background-color: #FFC0CB;
-            color: #FFF5EE;
-            padding: 20px;
+            border: none;
+            color: #fff;
             border-radius: 10px;
-            animation: dropIn 3s ease forwards; /* Apply drop-in animation */
-            margin-bottom: 20px; /* Add margin bottom to create space between containers */
+            cursor: pointer;
+            position: relative;
+            margin-right: 20px; /* Increased margin for spacing */
+            margin-left: 20px; /* Increased margin for spacing */
         }
 
-        /* Adjust margin-right and margin-left to create space */
-        .container > div {
-            margin-right: 10px;
-            margin-left: 10px;
+        /* Apply hover effect */
+        .button:hover {
+            background-image: linear-gradient(rgb(0 0 0 / 40%) 0 0);
+        }
+
+        /* Style the button text */
+        .button h2 {
+            margin: 0;
+            padding: 10px;
+            font-size: 20px;
         }
 
         @keyframes dropIn {
@@ -70,42 +80,19 @@
             AT UTSA</h1>
     </header>
     <div class="container">
-        <div data-aos="fade-in">
-            <section class="about-section">
-                <h2>ABOUT US</h2>
-                <p>Welcome to Women In STEM at UTSA! We are a vibrant community dedicated to empowering and supporting women pursuing majors in Science, Technology, Engineering, and Mathematics (STEM). Our mission is to foster a sense of belonging and camaraderie among women in STEM fields, providing them with the resources, mentorship, and opportunities they need to thrive academically and professionally.
-                    At Women In STEM, we believe in the power of community to inspire and uplift. Whether you're a freshman exploring your interests or a seasoned STEM veteran, you'll find a welcoming environment here. Through networking events, workshops, guest speakers, and mentorship programs, we strive to create meaningful connections and empower each other to reach our fullest potential.
-                    Join us as we work together to break down barriers, shatter stereotypes, and build a brighter future for women in STEM. Together, we can achieve anything!</p>
-            </section>
+        <div data-aos="fade-in" class="button">
+            <h2>ABOUT US</h2>
         </div>
-        <div data-aos="fade-in">
-            <section class="about-section">
-                <!-- Duplicate container 1 -->
-                <h2>ABOUT US</h2>
-                <p>Welcome to Women In STEM at UTSA! We are a vibrant community dedicated to empowering and supporting women pursuing majors in Science, Technology, Engineering, and Mathematics (STEM). Our mission is to foster a sense of belonging and camaraderie among women in STEM fields, providing them with the resources, mentorship, and opportunities they need to thrive academically and professionally.
-                    At Women In STEM, we believe in the power of community to inspire and uplift. Whether you're a freshman exploring your interests or a seasoned STEM veteran, you'll find a welcoming environment here. Through networking events, workshops, guest speakers, and mentorship programs, we strive to create meaningful connections and empower each other to reach our fullest potential.
-                    Join us as we work together to break down barriers, shatter stereotypes, and build a brighter future for women in STEM. Together, we can achieve anything!</p>
-            </section>
+        <div data-aos="fade-in" class="button">
+            <h2>ABOUT US</h2>
         </div>
     </div>
     <div class="container">
-        <div data-aos="fade-up">
-            <section class="about-section">
-                <!-- Duplicate container 2 -->
-                <h2>ABOUT US</h2>
-                <p>Welcome to Women In STEM at UTSA! We are a vibrant community dedicated to empowering and supporting women pursuing majors in Science, Technology, Engineering, and Mathematics (STEM). Our mission is to foster a sense of belonging and camaraderie among women in STEM fields, providing them with the resources, mentorship, and opportunities they need to thrive academically and professionally.
-                    At Women In STEM, we believe in the power of community to inspire and uplift. Whether you're a freshman exploring your interests or a seasoned STEM veteran, you'll find a welcoming environment here. Through networking events, workshops, guest speakers, and mentorship programs, we strive to create meaningful connections and empower each other to reach our fullest potential.
-                    Join us as we work together to break down barriers, shatter stereotypes, and build a brighter future for women in STEM. Together, we can achieve anything!</p>
-            </section>
+        <div data-aos="fade-up" class="button">
+            <h2>ABOUT US</h2>
         </div>
-        <div data-aos="fade-up">
-            <section class="about-section">
-                <!-- Duplicate container 3 -->
-                <h2>ABOUT US</h2>
-                <p>Welcome to Women In STEM at UTSA! We are a vibrant community dedicated to empowering and supporting women pursuing majors in Science, Technology, Engineering, and Mathematics (STEM). Our mission is to foster a sense of belonging and camaraderie among women in STEM fields, providing them with the resources, mentorship, and opportunities they need to thrive academically and professionally.
-                    At Women In STEM, we believe in the power of community to inspire and uplift. Whether you're a freshman exploring your interests or a seasoned STEM veteran, you'll find a welcoming environment here. Through networking events, workshops, guest speakers, and mentorship programs, we strive to create meaningful connections and empower each other to reach our fullest potential.
-                    Join us as we work together to break down barriers, shatter stereotypes, and build a brighter future for women in STEM. Together, we can achieve anything!</p>
-            </section>
+        <div data-aos="fade-up" class="button">
+            <h2>ABOUT US</h2>
         </div>
     </div>
 

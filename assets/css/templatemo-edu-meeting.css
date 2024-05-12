@@ -920,8 +920,9 @@ section.upcoming-meetings .categories h4 {
 }
 
 section.upcoming-meetings .categories ul li {
-  display: inline-block;
+  display: block;
   margin-bottom: 15px;
+
 }
 
 section.upcoming-meetings .categories ul li a {
@@ -932,7 +933,7 @@ section.upcoming-meetings .categories ul li a {
 }
 
 section.upcoming-meetings .categories ul li a:hover {
-  color: #a12c2f;
+  color: rgba(62, 81, 70, 0.877);
 }
 
 section.upcoming-meetings .categories .main-button-red {

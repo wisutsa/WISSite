@@ -29,6 +29,8 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 /* 
 ---------------------------------------------
 reset
@@ -80,7 +82,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poetsen One', Arial, sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -158,7 +160,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: rgba(62, 81, 70, 0.877);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -174,7 +176,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: rgba(62, 81, 70, 0.877);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -888,7 +890,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/greybg.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1023,7 +1025,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/apply-bg.jpg);
+  background-image: url(../images/banquetwis.jpeg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1107,7 +1109,7 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/greybg.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1325,7 +1327,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/greybg.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1383,7 +1385,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: rgba(62, 81, 70, 0.877);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1399,7 +1401,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: rgba(62, 81, 70, 0.877);
   border-radius: 20px;
   padding: 40px;
 }
@@ -1562,7 +1564,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: rgba(62, 81, 70, 0.877);
   color: #fff;
 }
 

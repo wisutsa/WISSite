@@ -792,8 +792,8 @@ services
 }
 
 .services .item .icon {
-  max-width: 60px;
-  margin: 0 auto;
+  max-width: 20px;
+  margin: 0px;
 }
 
 .services .item h4 {
@@ -1457,7 +1457,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/girlsinc.PNG);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1493,7 +1493,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/greybg.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1509,7 +1509,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: rgba(62, 81, 70, 0.877);
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1523,7 +1523,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: rgba(62, 81, 70, 0.388);
   color: #fff;
 }
 

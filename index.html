@@ -36,29 +36,33 @@
             padding: 0 20px;
         }
         .button {
-            display: inline-block;
-            padding: 80px 80px; /* Increased padding for bigger buttons */
-            font-size: 24px; /* Increased font size */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 500px; /* Fixed width for the buttons */
+            height: 500px; /* Fixed height for the buttons */
+            font-size: 30px; /* Adjusted font size */
             background-color: #FFC0CB;
             border: none;
-            color: #fff;
+            color: #FFF5EE;
             border-radius: 10px;
             cursor: pointer;
             position: relative;
             margin-right: 20px; /* Increased margin for spacing */
             margin-left: 20px; /* Increased margin for spacing */
+            text-align: center; /* Center-align the text */
+            overflow: hidden; /* Hide overflowing text */
         }
 
         /* Apply hover effect */
         .button:hover {
-            background-image: linear-gradient(rgb(0 0 0 / 40%) 0 0);
+            background-image: linear-gradient(rgba(183, 108, 208, 0.4) 0 0);
         }
 
         /* Style the button text */
         .button h2 {
             margin: 0;
-            padding: 10px;
-            font-size: 20px;
+            padding: 0;
         }
 
         @keyframes dropIn {
@@ -84,15 +88,15 @@
             <h2>ABOUT US</h2>
         </div>
         <div data-aos="fade-in" class="button">
-            <h2>ABOUT US</h2>
+            <h2>BECOME A MEMBER</h2>
         </div>
     </div>
     <div class="container">
         <div data-aos="fade-up" class="button">
-            <h2>ABOUT US</h2>
+            <h2>CURRENT OFFICERS</h2>
         </div>
         <div data-aos="fade-up" class="button">
-            <h2>ABOUT US</h2>
+            <h2>WIS EVENTS</h2>
         </div>
     </div>
 

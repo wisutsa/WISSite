@@ -961,13 +961,13 @@ section.upcoming-meetings .categories .main-button-red a {
   border-top-left-radius: 20px;
 }
 
-.meeting-item .thumb .price {
+.meeting-item .thumb .opento {
   position: absolute;
   left: 20px;
   top: 20px;
 }
 
-.meeting-item .thumb .price span {
+.meeting-item .thumb .opento span {
   font-size: 16px;
   color: #1f272b;
   font-weight: 600;
@@ -1580,13 +1580,13 @@ section.meetings-page .pagination ul li a:hover {
   border-top-left-radius: 20px;
 }
 
-.meeting-single-item .thumb .price {
+.meeting-single-item .thumb .opento {
   position: absolute;
   left: 20px;
   top: 20px;
 }
 
-.meeting-single-item .thumb .price span {
+.meeting-single-item .thumb .opento span {
   font-size: 16px;
   color: #1f272b;
   font-weight: 600;

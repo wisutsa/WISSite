@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WIS UTSA</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poetsen One', Arial, sans-serif;
+        }
+
+        .contact-us {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+   <!-- Sub Header -->
+   <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>FOLLOW US ON INSTAGRAM!</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="https://www.instagram.com/wis.utsa"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Header -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <a href="index.html" class="logo">WOMEN IN STEM AT UTSA</a>
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Become A Member</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Meetings</a>
+                                <ul class="sub-menu">
+                                    <li><a href="meetings.html">Upcoming Meetings</a></li>
+                                    <li><a href="meeting-details.html">Meeting Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.bonfire.com/women-in-stem-2024/">WIS Merch</a></li>
+                            <li><a href="index.html">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <form id="contact" action="https://api.web3forms.com/submit" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2>RSVP to a WIS Event</h2>
+                            </div>
+                            <input type="hidden" name="access_key" value="816e95f4-a38c-4d38-9691-0a7616d491d6">
+                            <input type="hidden" name="subject" value="WIS Member RSVP">
+
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <input name="Name" type="text" id="name" placeholder="NAME" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <input name="Email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                        placeholder="EMAIL" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <input name="ABC123" type="text" id="abc123" placeholder="ABC123" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <select name="Event" id="event" class="form-control" required>
+                                        <option value="" disabled selected>Select an Event</option>
+                                        <option value="General Meeting 1">General Meeting 1</option>
+                                        <option value="General Meeting 2">General Meeting 2</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12 text-center mt-3">
+                                <button type="submit" class="btn btn-primary">Submit RSVP</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include JavaScript files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

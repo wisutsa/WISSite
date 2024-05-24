@@ -1893,10 +1893,9 @@ responsive
 .meeting-button {
   width: 100%; /* Make the buttons take up 100% of their container width */
   max-width: 300px; /* Limit the maximum width for better readability */
-  margin-bottom: 10px; /* Add some space between buttons */
+  margin-top: 100px;
+  margin-bottom: 100px; /* Add some space between buttons */
   padding: 10px; /* Add padding for better spacing inside the button */
-  background-color: #fb5849; /* Choose a suitable button color */
-  color: #fff; /* Text color for better contrast */
   font-size: 14px; /* Decrease font size for smaller buttons */
   text-align: center; /* Center align text */
   border: none; /* Remove border for a cleaner look */

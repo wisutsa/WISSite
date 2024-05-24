@@ -704,32 +704,38 @@ banner
 }
 
 #bg-video {
-    min-width: 100%;
-    min-height: 100vh;
-    max-width: 100%;
-    max-height: 100vh;
-    object-fit: cover;
-    z-index: -1;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none; /* Disable video controls */
 }
 
 #bg-video::-webkit-media-controls {
-    display: none !important;
+  display: none !important;
 }
 
 .video-overlay {
-    position: absolute;
-    background-color: rgba(31,39,43,0.75);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
+  position: absolute;
+  background-color: rgba(31,39,43,0.75);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 .main-banner .caption {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 20px; /* Ensure padding on mobile */
+  width: 100%; /* Full width on mobile */
+  box-sizing: border-box;
 }
 
 .main-banner .caption h6 {
@@ -761,6 +767,7 @@ banner
   color: #fff;
   font-size: 14px;
   max-width: 570px;
+  margin: 0 auto; /* Center the text */
 }
 
 .main-banner .caption .main-button-red {
@@ -768,16 +775,32 @@ banner
 }
 
 @media screen and (max-width: 767px) {
-
   .main-banner .caption h6 {
+    font-size: 12px; /* Adjust text size for mobile */
     font-weight: 500;
   }
 
   .main-banner .caption h2 {
-    font-size: 36px;
+    font-size: 24px; /* Adjust text size for mobile */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
+  .main-banner .caption p {
+    font-size: 12px; /* Adjust text size for mobile */
+  }
+
+  .main-banner {
+    padding: 20px 0; /* Adjust padding for mobile */
+  }
+
+  #bg-video {
+    object-fit: cover; /* Ensure the video covers the area without zooming */
+    height: auto;
+    width: 100%;
+  }
 }
+
 
 
 /*

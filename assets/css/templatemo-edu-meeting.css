@@ -696,6 +696,7 @@ banner
 --------------------------------------------- 
 */
 
+
 .main-banner {
   position: relative;
   max-height: 100%;
@@ -709,7 +710,7 @@ banner
   max-width: 100%;
   max-height: 100vh;
   object-fit: cover;
-  z-index: -1;
+  z-index: 1; /* Ensure it's below the overlay and caption */
   pointer-events: none; /* Disable video controls */
 }
 
@@ -725,6 +726,7 @@ banner
   bottom: 0;
   right: 0;
   width: 100%;
+  z-index: 2; /* Ensure it's above the video but below the caption */
 }
 
 .main-banner .caption {
@@ -736,6 +738,7 @@ banner
   padding: 0 20px; /* Ensure padding on mobile */
   width: 100%; /* Full width on mobile */
   box-sizing: border-box;
+  z-index: 3; /* Ensure it's above the overlay and video */
 }
 
 .main-banner .caption h6 {
@@ -800,6 +803,7 @@ banner
     width: 100%;
   }
 }
+
 
 
 

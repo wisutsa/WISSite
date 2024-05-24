@@ -1066,7 +1066,7 @@ apply now
 section.apply-now {
   background-image: url(../images/banquetwis.jpeg);
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px;

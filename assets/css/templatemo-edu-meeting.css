@@ -726,7 +726,6 @@ banner
   bottom: 0;
   right: 0;
   width: 100%;
-  z-index: 2; /* Ensure it's above the video but below the caption */
 }
 
 .main-banner .caption {
@@ -1073,11 +1072,6 @@ section.apply-now {
   padding: 140px 0px;
 
 }
-/* Adjust background image size for mobile devices */
-@media (max-width: 932px) {
-  section.apply-now {
-    background-attachment: scroll; /* Disable fixed attachment on mobile */
-  }
 
 section.apply-now .item {
   background-color: rgba(250,250,250,0.15);

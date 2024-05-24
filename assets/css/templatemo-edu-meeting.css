@@ -1852,7 +1852,7 @@ responsive
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 932px) {
 
   .sub-header .left-content p {
     display: none;
@@ -1891,7 +1891,7 @@ responsive
 }
 
 .meeting-button {
-  width: calc(100% - 20px); /* Take up 100% width minus 20px of padding */
+  width: 100%; /* Make the buttons take up 100% of their container width */
   max-width: 300px; /* Limit the maximum width for better readability */
   margin-bottom: 10px; /* Add some space between buttons */
   padding: 10px; /* Add padding for better spacing inside the button */
@@ -1903,6 +1903,8 @@ responsive
   border-radius: 5px; /* Optional: Add border radius for a nicer appearance */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
+
+
 
 
 .meeting-button:hover {

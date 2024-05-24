@@ -209,6 +209,7 @@ header
 --------------------------------------------- 
 */
 
+
 .sub-header {
   background-color: #1f272b;
   position: relative;
@@ -357,7 +358,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a,
-.background-header .main-nav .nav li a.active {
+.background-header .nav li a.active {
   color: #f5a425!important;
   opacity: 1;
 }
@@ -576,6 +577,7 @@ header
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
+
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -670,13 +672,22 @@ header
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
-}
 
-@media (min-width: 767px) {
-  .header-area .main-nav .nav {
-    display: flex !important;
+  /* Smaller header text on mobile devices */
+  .header-area .main-nav .logo {
+    font-size: 20px; /* Adjust the size as needed */
   }
 }
+
+@media (max-width: 767px) {
+  /* Make header non-sticky on mobile devices */
+  .background-header {
+    position: static!important;
+    height: auto!important;
+    box-shadow: none!important;
+  }
+}
+
 
 
 /* 

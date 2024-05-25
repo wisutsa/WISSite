@@ -95,7 +95,7 @@
     </section>
 
     <section class="contact-us" id="contact">
-        <div class="container contact-form">
+        <div class="container contact-form" id="rsvp-form">
             <div class="row">
                 <div class="col-lg-12">
                     <form id="contact" action="https://api.web3forms.com/submit" method="post">
@@ -201,6 +201,18 @@
         checkSection();
       });
   </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      // Check if the element exists
+      var formSection = document.getElementById("rsvp-form");
+      if (formSection) {
+          // Scroll to the form section smoothly
+          formSection.scrollIntoView({ behavior: 'smooth' });
+      }
+  });
+</script>
+
 
 </body>
 </body>

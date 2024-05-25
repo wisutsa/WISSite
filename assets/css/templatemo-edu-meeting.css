@@ -675,7 +675,7 @@ header
 
   /* Smaller header text on mobile devices */
   .header-area .main-nav .logo {
-    font-size: 20px; /* Adjust the size as needed */
+    font-size:15px; /* Adjust the size as needed */
   }
 }
 

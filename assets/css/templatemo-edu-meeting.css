@@ -1551,7 +1551,7 @@ section.meetings-page .filters li {
   font-size: 13px;
   color: rgba(62, 81, 70, 0.877);
   background-color: #fff;
-  padding: 11px 30px;
+  padding: 13px 20px;
   display: inline-block;
   border-radius: 22px;
   font-weight: 600;
@@ -1890,25 +1890,36 @@ responsive
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
 }
 
-.meeting-button {
-  width: 100%; /* Make the buttons take up 100% of their container width */
-  max-width: 300px; /* Limit the maximum width for better readability */
-  margin-top: 100px;
-  margin-bottom: 100px; /* Add some space between buttons */
-  padding: 10px; /* Add padding for better spacing inside the button */
-  font-size: 14px; /* Decrease font size for smaller buttons */
-  text-align: center; /* Center align text */
-  border: none; /* Remove border for a cleaner look */
-  border-radius: 5px; /* Optional: Add border radius for a nicer appearance */
-  cursor: pointer; /* Change cursor to pointer on hover */
+.meetings-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
 }
 
+section.meetings-page .filters {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+section.meetings-page .filters li {
+  font-size: 10px;
+  color: rgba(62, 81, 70, 0.877);
+  background-color: #fff;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all .3s;
+  cursor: pointer;
+  margin: 3px 3px;
+}
 
 
 
 .meeting-button:hover {
     background-color: #e64334; /* Change button color on hover */
 }
-
 
 }

@@ -1031,7 +1031,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #eba2af;
 }
 
 .meeting-item .down-content .date span {
@@ -1852,7 +1852,7 @@ responsive
 
 }
 
-@media (max-width: 932px) {
+@media (max-width: 1180px) {
 
   .sub-header .left-content p {
     display: none;

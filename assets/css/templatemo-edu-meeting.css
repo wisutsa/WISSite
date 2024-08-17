@@ -1,9 +1,5 @@
 /*
 
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
 */
 
 /* ---------------------------------------------
@@ -45,6 +41,14 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
+.officer-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px; /* This ensures a maximum height while keeping the aspect ratio */
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
 
 
 .clearfix:after {

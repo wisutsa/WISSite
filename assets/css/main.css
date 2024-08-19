@@ -1747,7 +1747,65 @@ section.meetings-page .pagination ul li a:hover {
 responsive
 --------------------------------------------- 
 */
+@media (max-width: 1300px) {
+  .services .owl-nav .owl-next{
+    right: -30px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -25px;
+  }
+  .our-courses .owl-nav .owl-next{
+    right: -30px;
+  }
+  .our-courses .owl-nav .owl-prev{
+    left: -25px;
+  }
+}
 
+@media (max-width: 1200px) {
+  .services .owl-nav .owl-next{
+    right: -70px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -65px;
+  }
+  .our-courses .owl-nav .owl-next{
+    right: -70px;
+  }
+  .our-courses .owl-nav .owl-prev{
+    left: -65px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .services .owl-nav .owl-next{
+    right: -30px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -25px;
+  }
+  .our-courses .owl-nav .owl-next{
+    right: -30px;
+  }
+  .our-courses .owl-nav .owl-prev{
+    left: -25px;
+  }
+}
+
+@media (max-width: 1005px) {
+  .services .owl-nav .owl-next{
+    display: none;
+  }
+  .services .owl-nav .owl-prev{
+    display: none;
+  }
+  .our-courses .owl-nav .owl-next{
+    display: none;
+  }
+  .our-courses .owl-nav .owl-prev{
+    display: none;
+  }
+}
 
 
 @media (max-width: 992px) {

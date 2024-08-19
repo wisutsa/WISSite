@@ -1598,12 +1598,19 @@ section.meetings-page .pagination ul li a {
 
 section.meetings-page .main-button-red {
   text-align: center;
+
 }
 
 section.meetings-page .main-button-red a {
   padding: 12px 60px;
   text-align: center;
   margin-top: 30px;
+}
+
+/* aligns button to the right*/
+.button-right { 
+  display: flex;
+  justify-content: flex-end;
 }
 
 section.meetings-page .pagination ul li.active a,

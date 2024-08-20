@@ -1034,6 +1034,8 @@ section.upcoming-meetings .categories .main-button-red a {
 
 
 .officer-item {
+  clear: both; /* Ensure no overlap */
+
   margin-bottom: 30px;
 }
 
@@ -1795,7 +1797,7 @@ section.meetings-page .pagination ul li a:hover {
 
 /* Officer item column */
 .officer-item-col {
-	width: 31%;
+  width: 31%;
 }
 
 @media (max-width: 992px) {
@@ -1931,11 +1933,13 @@ responsive
 
 }
 
+/* Mobile Device Compatibility */
+
 @media (max-width: 767px) {
   .officer-item .down-content .date h6,
   .officer-item .down-content .date span,
   .officer-item .down-content h4 {
-      font-size: 80%; /* Reduce to 80% of the original size */
+      font-size: 90%; /* Reduce to 80% of the original size */
   }
 }
 

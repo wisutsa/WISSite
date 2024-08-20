@@ -12,14 +12,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-.officer-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  max-height: 400px; /* This ensures a maximum height while keeping the aspect ratio */
-  border-radius: 10px; /* Optional: Adds rounded corners to the image */
-  display: block;
-}
+
 
 
 
@@ -1932,34 +1925,6 @@ responsive
   }
 
 }
-/* Start */
-.officer-item-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 -15px; /* Adjust for padding if needed */
-}
-
-.officer-item-col {
-  flex: 1 1 100%; /* Full width on small screens */
-  max-width: 100%;
-  box-sizing: border-box;
-  padding: 15px;
-  margin-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-  .officer-item-col {
-      flex: 1 1 45%; /* Two items per row on medium screens */
-  }
-}
-
-@media (min-width: 992px) {
-  .officer-item-col {
-      flex: 1 1 31%; /* Three items per row on larger screens */
-  }
-}
-/*end */
 
 @media (max-width: 767px) {
   .officer-item .down-content .date h6,

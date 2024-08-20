@@ -1027,7 +1027,6 @@ section.upcoming-meetings .categories .main-button-red a {
 
 
 .officer-item {
-  clear: both; /* Ensure no overlap */
 
   margin-bottom: 30px;
 }
@@ -1064,6 +1063,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .officer-item .down-content .date {
+
   float: left;
   text-align: center;
   display: inline-block;
@@ -1998,8 +1998,6 @@ section.meetings-page .filters li {
   cursor: pointer;
   margin: 3px 3px;
 }
-
-
 
 .meeting-button:hover {
     background-color: #eba2af; /* Change button color on hover */

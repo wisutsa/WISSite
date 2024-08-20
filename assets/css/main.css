@@ -1036,6 +1036,8 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .officer-item .thumb img {
+  width: 100%; /* Ensure images fit within their container */
+  height: auto;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }

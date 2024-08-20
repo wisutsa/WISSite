@@ -1,37 +1,8 @@
-/*
 
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -1062,6 +1033,78 @@ section.upcoming-meetings .categories .main-button-red a {
 
 
 
+.officer-item {
+  margin-bottom: 30px;
+}
+
+.officer-item .thumb {
+  position: relative;
+}
+
+.officer-item .thumb img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.officer-item .thumb .opento {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.officer-item .thumb .opento span {
+  font-size: 16px;
+  color: #1f272b;
+  font-weight: 600;
+  background-color: rgba(250,250,250,0.9);
+  padding: 7px 12px;
+  border-radius: 10px;
+}
+
+.officer-item .down-content {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.officer-item .down-content .date {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.officer-item .down-content .date h6 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #eba2af;
+}
+
+.officer-item .down-content .date span {
+  display: block;
+  color: #1f272b;
+  font-size: 22px;
+  margin-top: 7px;
+}
+
+.officer-item .down-content h4 {
+  font-size: 18px;
+  color: #1f272b;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.officer-item .down-content p {
+  margin-left: 50px;
+  color: #1f272b;
+  font-size: 14px;
+}
+
+
+
 /*
 ---------------------------------------------
 apply now
@@ -1749,6 +1792,24 @@ section.meetings-page .pagination ul li a:hover {
 		width: 100%;
 	}
 }
+
+/* Officer item column */
+.officer-item-col {
+	width: 31%;
+}
+
+@media (max-width: 992px) {
+	.officer-item-col {
+		width: 45%;
+	}
+}
+
+@media (max-width: 767px) {
+	.officer-item-col {
+		width: 100%;
+	}
+}
+
 
 /* 
 ---------------------------------------------

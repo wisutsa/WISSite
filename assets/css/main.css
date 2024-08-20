@@ -14,7 +14,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 .officer-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   max-height: 400px; /* This ensures a maximum height while keeping the aspect ratio */
   border-radius: 10px; /* Optional: Adds rounded corners to the image */
@@ -1810,6 +1810,12 @@ section.meetings-page .pagination ul li a:hover {
 	}
 }
 
+.officer-item:hover .thumb img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
 
 /* 
 ---------------------------------------------
@@ -1924,6 +1930,15 @@ responsive
   }
 
 }
+
+@media (max-width: 767px) {
+  .officer-item .down-content .date h6,
+  .officer-item .down-content .date span,
+  .officer-item .down-content h4 {
+      font-size: 80%; /* Reduce to 80% of the original size */
+  }
+}
+
 
 @media (max-width: 1180px) {
 

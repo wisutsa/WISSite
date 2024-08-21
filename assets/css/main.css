@@ -127,7 +127,7 @@ body {
   }
 }
 
-.main-button-red a {
+.main-button-pink a {
   font-size: 13px;
   color: #fff;
   background-color: #e48395;
@@ -139,23 +139,7 @@ body {
   transition: all .3s;
 }
 
-.main-button-red a:hover {
-  opacity: 0.9;
-}
-
-.main-button-yellow a {
-  font-size: 13px;
-  color: #fff;
-  background-color: #e48395;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
-}
-
-.main-button-yellow a:hover {
+.main-button-pink a:hover {
   opacity: 0.9;
 }
 
@@ -741,7 +725,7 @@ banner
   margin: 0 auto; /* Center the text */
 }
 
-.main-banner .caption .main-button-red {
+.main-banner .caption .main-button-pink {
   margin-top: 30px;
 }
 
@@ -943,13 +927,13 @@ section.upcoming-meetings .categories ul li a:hover {
   color: #eba2af;
 }
 
-section.upcoming-meetings .categories .main-button-red {
+section.upcoming-meetings .categories .main-button-pink {
   border-top: 1px solid #eee;
   padding-top: 30px;
   margin-top: 15px;
 }
 
-section.upcoming-meetings .categories .main-button-red a {
+section.upcoming-meetings .categories .main-button-pink a {
   width: 100%;
   text-align: center;
 }
@@ -1635,22 +1619,27 @@ section.meetings-page .pagination ul li a {
   transition: all .3s;
 }
 
-section.meetings-page .main-button-red {
+section.meetings-page .main-button-pink {
   text-align: center;
 
 }
 
-section.meetings-page .main-button-red a {
+section.meetings-page .main-button-pink a {
   padding: 12px 60px;
   text-align: center;
   margin-top: 30px;
 }
 
-/* aligns button to the right*/
-.button-right { 
+/* aligns button to the right and makes smaller*/
+.button-genmeeting-back{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding: 5px 10px; /* Adjust padding to reduce button size */
+  font-size: 14px;   /* Decrease font size */
+  width: auto;       /* Set width to auto or a smaller fixed size */
+  height: auto;      /* Set height to auto or a smaller fixed size */
 }
+
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
@@ -1890,7 +1879,7 @@ responsive
     font-size: 22px;
   }
 
-  .main-banner .caption .main-button-red {
+  .main-banner .caption .main-button-pink {
     margin-top: 15px;
   }
 
@@ -2004,6 +1993,11 @@ section.apply-now {
 }
 
 /*new code */
+.officer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
 
 

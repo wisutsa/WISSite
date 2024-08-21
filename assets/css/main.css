@@ -2004,12 +2004,7 @@ section.apply-now {
 }
 
 /*new code */
-.row.grid {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative; /* Or set to 'initial' if 'relative' isn't needed */
-  height: auto; /* Adjust or remove the fixed height */
-}
+
 
 
 

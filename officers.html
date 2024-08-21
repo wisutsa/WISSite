@@ -305,6 +305,12 @@
 
         };
 
+        var $grid = $('.grid').isotope({
+            // options
+            itemSelector: '.grid-item',
+            layoutMode: 'fitRows'
+        });
+
         var checkSection = function checkSection() {
             $('.section').each(function() {
                 var
@@ -333,9 +339,8 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function(){
            document.getElementById('meetings').scrollIntoView({ behavior: 'smooth' }); 
-        }, 100);
+       
         });
     </script>
 </body>

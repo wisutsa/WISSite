@@ -1038,6 +1038,9 @@ section.upcoming-meetings .categories .main-button-red a {
 .officer-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .officer-item .thumb .opento {
@@ -2012,10 +2015,4 @@ section.apply-now {
 
 }
 
-}
-
-.officer-item:after {
-  content: "";
-  display: table;
-  clear: both;
 }

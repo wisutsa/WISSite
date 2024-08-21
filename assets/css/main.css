@@ -2013,3 +2013,9 @@ section.apply-now {
 }
 
 }
+
+.officer-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1926,14 +1926,6 @@ responsive
 
 }
 
-@media (max-width: 767px) {
-  .officer-item .down-content .date h6,
-  .officer-item .down-content .date span,
-  .officer-item .down-content h4 {
-      font-size: 90%; /* Reduce to 80% of the original size */
-  }
-}
-
 
 @media (max-width: 1180px) {
 

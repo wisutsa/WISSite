@@ -333,7 +333,14 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('meetings').scrollIntoView({ behavior: 'smooth' });
+           // document.getElementById('meetings').scrollIntoView({ behavior: 'smooth' }); //
+           if (window.location.hash === '#meetings') {
+        const officerItems = document.querySelectorAll('.officer-item');
+        officerItems.forEach(item => {
+            item.style.display = 'none'; // Hide items
+            item.offsetHeight; // Trigger a reflow
+            item.style.display = ''; // Show items
+        
         });
     </script>
 </body>

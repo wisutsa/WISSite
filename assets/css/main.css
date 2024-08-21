@@ -1916,7 +1916,7 @@ responsive
 }
 
 
-@media (max-width: 1180px) {
+@media (max-width: 500px) {
 
   .sub-header .left-content p {
     display: none;

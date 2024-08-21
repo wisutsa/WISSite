@@ -1027,8 +1027,8 @@ section.upcoming-meetings .categories .main-button-red a {
 
 
 .officer-item {
-
   margin-bottom: 30px;
+  min-height: 455px;
 }
 
 .officer-item .thumb {
@@ -2002,4 +2002,15 @@ section.apply-now {
   background-size: cover;
   padding: 140px 0px;
 }
+
+/*new code */
+.row.grid {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; /* Or set to 'initial' if 'relative' isn't needed */
+  height: auto; /* Adjust or remove the fixed height */
+}
+
+
+
 }

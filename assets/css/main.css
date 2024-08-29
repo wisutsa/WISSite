@@ -1999,7 +1999,13 @@ section.apply-now {
   gap: 30px;
 }
 
-
+@media (max-width: 1024px) {
+  section.apply-now {
+    background-size: contain;
+    background-position: center center;
+    padding: 100px 0px;
+  }
+}
 
 
 }

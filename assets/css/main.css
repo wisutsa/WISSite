@@ -2004,8 +2004,8 @@ section.apply-now {
     background-size: contain;
     background-position: center center;
     padding: 100px 0px;
+    background-attachment: scroll; /* Change fixed to scroll */
   }
-}
 
 
 }

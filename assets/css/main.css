@@ -1103,12 +1103,10 @@ section.apply-now {
 /* For iPad screens */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   section.apply-now {
-    background-attachment: scroll;
-    background-size: contain;
-    background-position: center center;
-    background-color: #FFC0CB; /* Replace with your desired color */
-
-
+    background-attachment: scroll; /* Removes the parallax effect */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Centers the image */
+    padding: 0; /* Removes any padding */
   }
 }
 
